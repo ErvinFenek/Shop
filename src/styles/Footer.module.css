@@ -1,0 +1,43 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 24px;
+  background: var(--bg);
+  border: 1px solid var(--dark-orange);
+
+}
+
+.logo {
+  width: 304px;
+}
+
+.logo a {
+  height: 100%;
+}
+
+.rights {
+  color: var(--dark-orange);
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.rights a {
+  color: var(--dark-orange);
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+}
+
+.socials svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--dark-orange);
+}
+
+.socials svg:hover {
+  fill: var(--salat);
+}

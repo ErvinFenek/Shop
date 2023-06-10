@@ -8,6 +8,7 @@ import Sidebar from "../Sidebar/Sidebar";
 
 import {getCategories} from "../../features/categories/categoriesSlice";
 import {getProducts} from "../../features/products/productsSlice";
+import UserForm from "../User/UserForm";
 
 const App = () => {
     const dispatch = useDispatch();
@@ -21,6 +22,7 @@ const App = () => {
 
     return <div className="app">
         <Header     />
+        <UserForm  />
 
         <div className='container'>
             <Sidebar    />
